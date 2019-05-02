@@ -1,0 +1,36 @@
+= Search API
+
+[[examples]]
+== Examples
+[[stack_overflow_search_example_success]]
+=== Successful call
+When making a successfull call to this API endpoint, the following request parameters and body can be expected.
+
+[[stack_overflow_search_example_success_request]]
+==== Request
+include::{snippets}/stack-overflow-search-example/http-request.adoc[]
+
+[[stack_overflow_search_example_success_request_parameters]]
+===== Request parameters
+include::{snippets}/stack-overflow-search-example/request-fields.adoc[]
+
+[[stack_overflow_search_example_success_request_body]]
+===== Request body
+include::{snippets}/stack-overflow-search-example/request-body.adoc[]
+
+[[stack_overflow_search_example_success_response]]
+==== Response
+include::{snippets}/stack-overflow-search-example/http-response.adoc[]
+
+[[stack_overflow_search_example_success_response_fields]]
+===== Response headers
+include::{snippets}/stack-overflow-search-example/response-fields.adoc[]
+
+[[stack_overflow_search_example_success_response_body]]
+===== Response body
+include::{snippets}/stack-overflow-search-example/response-body.adoc[]
+
+
+[[stack_overflow_search_example_success_curl]]
+==== cURL
+include::{snippets}/stack-overflow-search-example/curl-request.adoc[]
